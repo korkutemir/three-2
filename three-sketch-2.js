@@ -1,4 +1,4 @@
-const CLIENT_ID = '748dec2130344f32b8b67f26dbed1026';
+const CLIENT_ID = '1Uou0R2ndNipcNF6XNsQdIDYTAMcPcoGmClUwKMd';
 const AUTHENTICATION_URL = `https://sketchfab.com/oauth2/authorize/?state=123456789&response_type=token&client_id=${CLIENT_ID}`;
 import JSZip from "https://cdn.skypack.dev/jszip";
 import * as THREE from "https://cdn.skypack.dev/three@0.136.0";
