@@ -123,7 +123,7 @@ class SketchfabIntegration {
 		const options = {
 		    method: 'GET',
 		    headers: {
-		        Authorization: `Bearer ${this.token}`,
+		        Authorization: `Bearer FkB0noi7PGQb7X6QajTH9OGizoFAJS`,
 		    },
 		    mode: 'cors'
 		};
