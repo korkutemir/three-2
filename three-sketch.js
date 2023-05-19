@@ -55,7 +55,7 @@ const sfParams = {
 
 // If we detected a token, then show the text field for the user to paste in a URL
 let loginButtonName = 'Login to Sketchfab';
-if (sketchfabIntegration.token != null) {
+if (sketchfabIntegration.token == null) {
   let lastValue;
   sketchfabFolder.add(sfParams, 'Sketchfab URL').onChange(async function (value) {
     if (lastValue != value) {
